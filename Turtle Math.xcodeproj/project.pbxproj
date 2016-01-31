@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CAA10851C5DA6850042E9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10841C5DA6850042E9FF /* AppDelegate.swift */; };
+		7CAA10871C5DA6850042E9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10861C5DA6850042E9FF /* ViewController.swift */; };
+		7CAA108A1C5DA6850042E9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA10881C5DA6850042E9FF /* Main.storyboard */; };
+		7CAA108C1C5DA6850042E9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA108B1C5DA6850042E9FF /* Assets.xcassets */; };
+		7CAA108F1C5DA6850042E9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA108D1C5DA6850042E9FF /* LaunchScreen.storyboard */; };
+		7CAA109A1C5DA6850042E9FF /* Turtle_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10991C5DA6850042E9FF /* Turtle_MathTests.swift */; };
+		7CAA10A51C5DA6860042E9FF /* Turtle_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA10A41C5DA6860042E9FF /* Turtle_MathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CAA10961C5DA6850042E9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CAA10791C5DA6850042E9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAA10801C5DA6850042E9FF;
+			remoteInfo = "Turtle Math";
+		};
+		7CAA10A11C5DA6860042E9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CAA10791C5DA6850042E9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAA10801C5DA6850042E9FF;
+			remoteInfo = "Turtle Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CAA10811C5DA6850042E9FF /* Turtle Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turtle Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA10841C5DA6850042E9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CAA10861C5DA6850042E9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CAA10891C5DA6850042E9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CAA108B1C5DA6850042E9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CAA108E1C5DA6850042E9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CAA10901C5DA6850042E9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAA10951C5DA6850042E9FF /* Turtle MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turtle MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA10991C5DA6850042E9FF /* Turtle_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MathTests.swift; sourceTree = "<group>"; };
+		7CAA109B1C5DA6850042E9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAA10A01C5DA6860042E9FF /* Turtle MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turtle MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA10A41C5DA6860042E9FF /* Turtle_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle_MathUITests.swift; sourceTree = "<group>"; };
+		7CAA10A61C5DA6860042E9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAA107E1C5DA6850042E9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA10921C5DA6850042E9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA109D1C5DA6860042E9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAA10781C5DA6850042E9FF = {
+			isa = PBXGroup;
+			children = (
+				7CAA10831C5DA6850042E9FF /* Turtle Math */,
+				7CAA10981C5DA6850042E9FF /* Turtle MathTests */,
+				7CAA10A31C5DA6860042E9FF /* Turtle MathUITests */,
+				7CAA10821C5DA6850042E9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAA10821C5DA6850042E9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10811C5DA6850042E9FF /* Turtle Math.app */,
+				7CAA10951C5DA6850042E9FF /* Turtle MathTests.xctest */,
+				7CAA10A01C5DA6860042E9FF /* Turtle MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAA10831C5DA6850042E9FF /* Turtle Math */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10841C5DA6850042E9FF /* AppDelegate.swift */,
+				7CAA10861C5DA6850042E9FF /* ViewController.swift */,
+				7CAA10881C5DA6850042E9FF /* Main.storyboard */,
+				7CAA108B1C5DA6850042E9FF /* Assets.xcassets */,
+				7CAA108D1C5DA6850042E9FF /* LaunchScreen.storyboard */,
+				7CAA10901C5DA6850042E9FF /* Info.plist */,
+			);
+			path = "Turtle Math";
+			sourceTree = "<group>";
+		};
+		7CAA10981C5DA6850042E9FF /* Turtle MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10991C5DA6850042E9FF /* Turtle_MathTests.swift */,
+				7CAA109B1C5DA6850042E9FF /* Info.plist */,
+			);
+			path = "Turtle MathTests";
+			sourceTree = "<group>";
+		};
+		7CAA10A31C5DA6860042E9FF /* Turtle MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA10A41C5DA6860042E9FF /* Turtle_MathUITests.swift */,
+				7CAA10A61C5DA6860042E9FF /* Info.plist */,
+			);
+			path = "Turtle MathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAA10801C5DA6850042E9FF /* Turtle Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAA10A91C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle Math" */;
+			buildPhases = (
+				7CAA107D1C5DA6850042E9FF /* Sources */,
+				7CAA107E1C5DA6850042E9FF /* Frameworks */,
+				7CAA107F1C5DA6850042E9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turtle Math";
+			productName = "Turtle Math";
+			productReference = 7CAA10811C5DA6850042E9FF /* Turtle Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CAA10941C5DA6850042E9FF /* Turtle MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAA10AC1C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle MathTests" */;
+			buildPhases = (
+				7CAA10911C5DA6850042E9FF /* Sources */,
+				7CAA10921C5DA6850042E9FF /* Frameworks */,
+				7CAA10931C5DA6850042E9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CAA10971C5DA6850042E9FF /* PBXTargetDependency */,
+			);
+			name = "Turtle MathTests";
+			productName = "Turtle MathTests";
+			productReference = 7CAA10951C5DA6850042E9FF /* Turtle MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CAA109F1C5DA6860042E9FF /* Turtle MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAA10AF1C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle MathUITests" */;
+			buildPhases = (
+				7CAA109C1C5DA6860042E9FF /* Sources */,
+				7CAA109D1C5DA6860042E9FF /* Frameworks */,
+				7CAA109E1C5DA6860042E9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CAA10A21C5DA6860042E9FF /* PBXTargetDependency */,
+			);
+			name = "Turtle MathUITests";
+			productName = "Turtle MathUITests";
+			productReference = 7CAA10A01C5DA6860042E9FF /* Turtle MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAA10791C5DA6850042E9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robert Foley";
+				TargetAttributes = {
+					7CAA10801C5DA6850042E9FF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7CAA10941C5DA6850042E9FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CAA10801C5DA6850042E9FF;
+					};
+					7CAA109F1C5DA6860042E9FF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CAA10801C5DA6850042E9FF;
+					};
+				};
+			};
+			buildConfigurationList = 7CAA107C1C5DA6850042E9FF /* Build configuration list for PBXProject "Turtle Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CAA10781C5DA6850042E9FF;
+			productRefGroup = 7CAA10821C5DA6850042E9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAA10801C5DA6850042E9FF /* Turtle Math */,
+				7CAA10941C5DA6850042E9FF /* Turtle MathTests */,
+				7CAA109F1C5DA6860042E9FF /* Turtle MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAA107F1C5DA6850042E9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA108F1C5DA6850042E9FF /* LaunchScreen.storyboard in Resources */,
+				7CAA108C1C5DA6850042E9FF /* Assets.xcassets in Resources */,
+				7CAA108A1C5DA6850042E9FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA10931C5DA6850042E9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA109E1C5DA6860042E9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAA107D1C5DA6850042E9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA10871C5DA6850042E9FF /* ViewController.swift in Sources */,
+				7CAA10851C5DA6850042E9FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA10911C5DA6850042E9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA109A1C5DA6850042E9FF /* Turtle_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA109C1C5DA6860042E9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAA10A51C5DA6860042E9FF /* Turtle_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CAA10971C5DA6850042E9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CAA10801C5DA6850042E9FF /* Turtle Math */;
+			targetProxy = 7CAA10961C5DA6850042E9FF /* PBXContainerItemProxy */;
+		};
+		7CAA10A21C5DA6860042E9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CAA10801C5DA6850042E9FF /* Turtle Math */;
+			targetProxy = 7CAA10A11C5DA6860042E9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CAA10881C5DA6850042E9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAA10891C5DA6850042E9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CAA108D1C5DA6850042E9FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAA108E1C5DA6850042E9FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CAA10A71C5DA6860042E9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CAA10A81C5DA6860042E9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CAA10AA1C5DA6860042E9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turtle Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CAA10AB1C5DA6860042E9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turtle Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CAA10AD1C5DA6860042E9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Turtle MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtle Math.app/Turtle Math";
+			};
+			name = Debug;
+		};
+		7CAA10AE1C5DA6860042E9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Turtle MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turtle Math.app/Turtle Math";
+			};
+			name = Release;
+		};
+		7CAA10B01C5DA6860042E9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Turtle MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Turtle Math";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CAA10B11C5DA6860042E9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Turtle MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foleyfishing.Turtle-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Turtle Math";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAA107C1C5DA6850042E9FF /* Build configuration list for PBXProject "Turtle Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA10A71C5DA6860042E9FF /* Debug */,
+				7CAA10A81C5DA6860042E9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAA10A91C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA10AA1C5DA6860042E9FF /* Debug */,
+				7CAA10AB1C5DA6860042E9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CAA10AC1C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA10AD1C5DA6860042E9FF /* Debug */,
+				7CAA10AE1C5DA6860042E9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CAA10AF1C5DA6860042E9FF /* Build configuration list for PBXNativeTarget "Turtle MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAA10B01C5DA6860042E9FF /* Debug */,
+				7CAA10B11C5DA6860042E9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAA10791C5DA6850042E9FF /* Project object */;
+}
