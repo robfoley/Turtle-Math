@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Turtle_Math" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,311 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iqn-XK-QYg">
+                                <rect key="frame" x="252" y="194" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j0T-Of-RD2">
+                                <rect key="frame" x="287" y="194" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGI-hk-gqs">
+                                <rect key="frame" x="322" y="194" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k7D-Fx-312">
+                                <rect key="frame" x="252" y="156" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Hp-ia-WQQ">
+                                <rect key="frame" x="287" y="156" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jl1-If-ag6">
+                                <rect key="frame" x="322" y="156" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QSQ-84-d5p">
+                                <rect key="frame" x="357" y="194" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wjO-ZK-eSV">
+                                <rect key="frame" x="322" y="232" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pjy-tH-WI6">
+                                <rect key="frame" x="357" y="232" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IsP-rQ-N8T">
+                                <rect key="frame" x="357" y="284" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ExM-PR-NF5">
+                                <rect key="frame" x="322" y="284" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CIV-Xo-duH">
+                                <rect key="frame" x="287" y="284" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LyW-6I-8Zz">
+                                <rect key="frame" x="252" y="284" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XgP-6C-3lJ">
+                                <rect key="frame" x="217" y="284" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qIC-3s-I8E">
+                                <rect key="frame" x="357" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r0k-Im-rkU">
+                                <rect key="frame" x="322" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hsx-70-fyk">
+                                <rect key="frame" x="287" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2s4-Ze-Fqa">
+                                <rect key="frame" x="252" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2V9-iP-1dS">
+                                <rect key="frame" x="217" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7O-Nm-Bil">
+                                <rect key="frame" x="357" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hsB-Xh-84d">
+                                <rect key="frame" x="322" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4M9-IW-cNp">
+                                <rect key="frame" x="287" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nxr-Ou-Cm2">
+                                <rect key="frame" x="252" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oxT-FZ-0LO">
+                                <rect key="frame" x="217" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="_______________________" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp5-Wp-NSB">
+                                <rect key="frame" x="217" y="255" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="_______________________" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL9-UP-VGb">
+                                <rect key="frame" x="217" y="346" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeH-SF-fdW">
+                                <rect key="frame" x="217" y="241" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aue-av-5hM">
+                                <rect key="frame" x="392" y="340" width="68" height="68"/>
+                                <state key="normal" title="Button" image="btnClear"/>
+                                <connections>
+                                    <action selector="clearBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAq-Pg-GTN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrs-Od-cjL">
+                                <rect key="frame" x="217" y="500" width="167" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5f-l7-K6Z">
+                                <rect key="frame" x="392" y="477" width="68" height="68"/>
+                                <state key="normal" title="Button" image="btnCheck"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Inm-c6-YEB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hFM-Ff-dFG">
+                                <rect key="frame" x="182" y="375" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRs-VI-9cD">
+                                <rect key="frame" x="142" y="326" width="32" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-fH-DZl">
+                                <rect key="frame" x="182" y="322" width="27" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="pjy-tH-WI6" firstAttribute="trailing" secondItem="vp5-Wp-NSB" secondAttribute="trailing" id="2J0-sw-4ma"/>
+                            <constraint firstItem="6Hp-ia-WQQ" firstAttribute="leading" secondItem="k7D-Fx-312" secondAttribute="trailing" constant="8" id="4Nl-cu-kdP"/>
+                            <constraint firstItem="wjO-ZK-eSV" firstAttribute="centerY" secondItem="xeH-SF-fdW" secondAttribute="centerY" id="5IE-27-2RP"/>
+                            <constraint firstItem="RTg-fH-DZl" firstAttribute="leading" secondItem="aRs-VI-9cD" secondAttribute="trailing" constant="8" id="5Rf-4u-rD3"/>
+                            <constraint firstItem="jl1-If-ag6" firstAttribute="leading" secondItem="6Hp-ia-WQQ" secondAttribute="trailing" constant="8" id="5Tv-GN-6pe"/>
+                            <constraint firstItem="pjy-tH-WI6" firstAttribute="centerX" secondItem="QSQ-84-d5p" secondAttribute="centerX" id="5tg-23-MSA"/>
+                            <constraint firstItem="qIC-3s-I8E" firstAttribute="leading" secondItem="r0k-Im-rkU" secondAttribute="trailing" constant="8" id="6nh-hr-X8C"/>
+                            <constraint firstItem="Y7O-Nm-Bil" firstAttribute="leading" secondItem="hsB-Xh-84d" secondAttribute="trailing" constant="8" id="7Tj-F9-Iq4"/>
+                            <constraint firstItem="IsP-rQ-N8T" firstAttribute="centerX" secondItem="QSQ-84-d5p" secondAttribute="centerX" id="82z-mJ-WWp"/>
+                            <constraint firstItem="QSQ-84-d5p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="174" id="8Jk-Xo-iiC"/>
+                            <constraint firstItem="VGI-hk-gqs" firstAttribute="centerX" secondItem="jl1-If-ag6" secondAttribute="centerX" id="8r5-RM-scI"/>
+                            <constraint firstItem="j0T-Of-RD2" firstAttribute="leading" secondItem="iqn-XK-QYg" secondAttribute="trailing" constant="8" id="9SE-7o-yit"/>
+                            <constraint firstAttribute="trailing" secondItem="QSQ-84-d5p" secondAttribute="trailing" constant="216" id="CEc-6K-qRx"/>
+                            <constraint firstItem="CIV-Xo-duH" firstAttribute="top" secondItem="vp5-Wp-NSB" secondAttribute="bottom" constant="8" id="CaG-ed-DSo"/>
+                            <constraint firstItem="mrs-Od-cjL" firstAttribute="top" secondItem="oxT-FZ-0LO" secondAttribute="bottom" constant="95" id="Ckl-m8-iwz"/>
+                            <constraint firstItem="VGI-hk-gqs" firstAttribute="leading" secondItem="j0T-Of-RD2" secondAttribute="trailing" constant="8" id="EJd-Zn-Fce"/>
+                            <constraint firstItem="ExM-PR-NF5" firstAttribute="leading" secondItem="CIV-Xo-duH" secondAttribute="trailing" constant="8" id="EaO-Ne-IOt"/>
+                            <constraint firstItem="6Hp-ia-WQQ" firstAttribute="centerY" secondItem="k7D-Fx-312" secondAttribute="centerY" id="ElW-St-Eus"/>
+                            <constraint firstItem="2V9-iP-1dS" firstAttribute="leading" secondItem="RTg-fH-DZl" secondAttribute="trailing" constant="8" id="Exc-Qg-U5I"/>
+                            <constraint firstItem="RTg-fH-DZl" firstAttribute="centerY" secondItem="aRs-VI-9cD" secondAttribute="centerY" id="FM9-J1-Grs"/>
+                            <constraint firstItem="2V9-iP-1dS" firstAttribute="centerY" secondItem="RTg-fH-DZl" secondAttribute="centerY" id="FuB-Wg-Scy"/>
+                            <constraint firstItem="hsx-70-fyk" firstAttribute="top" secondItem="CIV-Xo-duH" secondAttribute="bottom" constant="8" id="H1K-Vl-o4P"/>
+                            <constraint firstItem="XgP-6C-3lJ" firstAttribute="top" secondItem="vp5-Wp-NSB" secondAttribute="bottom" constant="8" id="HX7-1q-wBd"/>
+                            <constraint firstItem="qIC-3s-I8E" firstAttribute="top" secondItem="IsP-rQ-N8T" secondAttribute="bottom" constant="8" id="HXU-KM-fiN"/>
+                            <constraint firstItem="Nxr-Ou-Cm2" firstAttribute="centerY" secondItem="oxT-FZ-0LO" secondAttribute="centerY" id="I0T-nn-GCN"/>
+                            <constraint firstItem="4M9-IW-cNp" firstAttribute="leading" secondItem="Nxr-Ou-Cm2" secondAttribute="trailing" constant="8" id="Jcz-7f-bqp"/>
+                            <constraint firstItem="aue-av-5hM" firstAttribute="bottom" secondItem="Y7O-Nm-Bil" secondAttribute="bottom" id="K0b-KW-jiI"/>
+                            <constraint firstItem="aue-av-5hM" firstAttribute="leading" secondItem="OL9-UP-VGb" secondAttribute="trailing" constant="8" id="Lsi-5R-qdo"/>
+                            <constraint firstItem="4M9-IW-cNp" firstAttribute="centerY" secondItem="oxT-FZ-0LO" secondAttribute="centerY" id="OZh-Dl-23z"/>
+                            <constraint firstItem="CIV-Xo-duH" firstAttribute="leading" secondItem="LyW-6I-8Zz" secondAttribute="trailing" constant="8" id="P42-MX-2vx"/>
+                            <constraint firstItem="jl1-If-ag6" firstAttribute="centerY" secondItem="k7D-Fx-312" secondAttribute="centerY" id="Ppf-0G-gXv"/>
+                            <constraint firstItem="2s4-Ze-Fqa" firstAttribute="top" secondItem="LyW-6I-8Zz" secondAttribute="bottom" constant="8" id="QiH-Vx-nhY"/>
+                            <constraint firstItem="wjO-ZK-eSV" firstAttribute="leading" secondItem="xeH-SF-fdW" secondAttribute="trailing" constant="73" id="RlB-KE-5f5"/>
+                            <constraint firstItem="hsB-Xh-84d" firstAttribute="leading" secondItem="4M9-IW-cNp" secondAttribute="trailing" constant="8" id="THx-HO-pIq"/>
+                            <constraint firstItem="pjy-tH-WI6" firstAttribute="top" secondItem="QSQ-84-d5p" secondAttribute="bottom" constant="8" id="Tnw-NM-wTU"/>
+                            <constraint firstItem="qIC-3s-I8E" firstAttribute="trailing" secondItem="OL9-UP-VGb" secondAttribute="trailing" id="Vlf-H9-aEc"/>
+                            <constraint firstItem="IsP-rQ-N8T" firstAttribute="top" secondItem="vp5-Wp-NSB" secondAttribute="bottom" constant="8" id="WrG-U1-fzh"/>
+                            <constraint firstItem="2s4-Ze-Fqa" firstAttribute="leading" secondItem="2V9-iP-1dS" secondAttribute="trailing" constant="8" id="X6n-pM-wMu"/>
+                            <constraint firstItem="Y7O-Nm-Bil" firstAttribute="centerY" secondItem="oxT-FZ-0LO" secondAttribute="centerY" id="Xmi-94-vEc"/>
+                            <constraint firstItem="iqn-XK-QYg" firstAttribute="top" secondItem="k7D-Fx-312" secondAttribute="bottom" constant="8" id="Y5G-F9-3YY"/>
+                            <constraint firstItem="Y7O-Nm-Bil" firstAttribute="centerX" secondItem="QSQ-84-d5p" secondAttribute="centerX" id="ZSF-By-890"/>
+                            <constraint firstItem="vp5-Wp-NSB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZjG-BP-kH9"/>
+                            <constraint firstItem="OL9-UP-VGb" firstAttribute="leading" secondItem="RTg-fH-DZl" secondAttribute="trailing" constant="8" id="aA6-52-dSG"/>
+                            <constraint firstItem="r0k-Im-rkU" firstAttribute="leading" secondItem="hsx-70-fyk" secondAttribute="trailing" constant="8" id="aHm-9M-KZY"/>
+                            <constraint firstItem="c5f-l7-K6Z" firstAttribute="centerY" secondItem="mrs-Od-cjL" secondAttribute="centerY" id="bIR-Ps-JQv"/>
+                            <constraint firstItem="qIC-3s-I8E" firstAttribute="centerX" secondItem="QSQ-84-d5p" secondAttribute="centerX" id="buG-Z4-WW4"/>
+                            <constraint firstItem="j0T-Of-RD2" firstAttribute="centerY" secondItem="iqn-XK-QYg" secondAttribute="centerY" id="bxl-sg-v9w"/>
+                            <constraint firstItem="VGI-hk-gqs" firstAttribute="top" secondItem="jl1-If-ag6" secondAttribute="bottom" constant="8" id="cKP-Su-voe"/>
+                            <constraint firstItem="2V9-iP-1dS" firstAttribute="top" secondItem="XgP-6C-3lJ" secondAttribute="bottom" constant="8" id="cZN-VC-dbg"/>
+                            <constraint firstItem="QSQ-84-d5p" firstAttribute="leading" secondItem="VGI-hk-gqs" secondAttribute="trailing" constant="8" id="dI8-Wh-cO9"/>
+                            <constraint firstItem="QSQ-84-d5p" firstAttribute="centerY" secondItem="iqn-XK-QYg" secondAttribute="centerY" id="fVu-bH-QLD"/>
+                            <constraint firstItem="oxT-FZ-0LO" firstAttribute="leading" secondItem="hFM-Ff-dFG" secondAttribute="trailing" constant="8" id="gDe-dk-i0p"/>
+                            <constraint firstItem="vp5-Wp-NSB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i0F-Td-mDA"/>
+                            <constraint firstItem="mrs-Od-cjL" firstAttribute="trailing" secondItem="Y7O-Nm-Bil" secondAttribute="trailing" id="k1n-nL-A2Q"/>
+                            <constraint firstItem="oxT-FZ-0LO" firstAttribute="centerY" secondItem="hFM-Ff-dFG" secondAttribute="centerY" id="lnM-pY-aW2"/>
+                            <constraint firstItem="Y7O-Nm-Bil" firstAttribute="top" secondItem="OL9-UP-VGb" secondAttribute="bottom" constant="8" id="mb7-Bc-pfV"/>
+                            <constraint firstItem="LyW-6I-8Zz" firstAttribute="leading" secondItem="XgP-6C-3lJ" secondAttribute="trailing" constant="8" id="nYP-MC-GaL"/>
+                            <constraint firstItem="hsx-70-fyk" firstAttribute="leading" secondItem="2s4-Ze-Fqa" secondAttribute="trailing" constant="8" id="nsa-Hm-Spe"/>
+                            <constraint firstItem="wjO-ZK-eSV" firstAttribute="top" secondItem="VGI-hk-gqs" secondAttribute="bottom" constant="8" id="nxC-57-dYh"/>
+                            <constraint firstItem="pjy-tH-WI6" firstAttribute="leading" secondItem="wjO-ZK-eSV" secondAttribute="trailing" constant="8" id="obb-la-RNw"/>
+                            <constraint firstItem="j0T-Of-RD2" firstAttribute="top" secondItem="6Hp-ia-WQQ" secondAttribute="bottom" constant="8" id="p1E-3M-Ngk"/>
+                            <constraint firstItem="OL9-UP-VGb" firstAttribute="top" secondItem="XgP-6C-3lJ" secondAttribute="bottom" constant="32" id="qIn-U7-mU6"/>
+                            <constraint firstItem="c5f-l7-K6Z" firstAttribute="centerX" secondItem="aue-av-5hM" secondAttribute="centerX" id="ra3-fZ-rvU"/>
+                            <constraint firstItem="r0k-Im-rkU" firstAttribute="top" secondItem="ExM-PR-NF5" secondAttribute="bottom" constant="8" id="sXW-uy-lQ4"/>
+                            <constraint firstItem="ExM-PR-NF5" firstAttribute="top" secondItem="vp5-Wp-NSB" secondAttribute="bottom" constant="8" id="u88-pG-9jc"/>
+                            <constraint firstItem="IsP-rQ-N8T" firstAttribute="leading" secondItem="ExM-PR-NF5" secondAttribute="trailing" constant="8" id="uMn-sQ-d9D"/>
+                            <constraint firstItem="LyW-6I-8Zz" firstAttribute="top" secondItem="vp5-Wp-NSB" secondAttribute="bottom" constant="8" id="va7-VM-UTx"/>
+                            <constraint firstItem="vp5-Wp-NSB" firstAttribute="top" secondItem="QSQ-84-d5p" secondAttribute="bottom" constant="31" id="wZj-JP-EtD"/>
+                            <constraint firstItem="Nxr-Ou-Cm2" firstAttribute="leading" secondItem="oxT-FZ-0LO" secondAttribute="trailing" constant="8" id="xQu-cJ-dlI"/>
+                            <constraint firstItem="VGI-hk-gqs" firstAttribute="centerY" secondItem="iqn-XK-QYg" secondAttribute="centerY" id="xYm-OC-e2w"/>
+                            <constraint firstItem="hsB-Xh-84d" firstAttribute="centerY" secondItem="oxT-FZ-0LO" secondAttribute="centerY" id="yqk-ET-hOa"/>
+                            <constraint firstItem="pjy-tH-WI6" firstAttribute="centerY" secondItem="wjO-ZK-eSV" secondAttribute="centerY" id="zMK-CW-R2u"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8Jk-Xo-iiC"/>
+                                <exclude reference="CEc-6K-qRx"/>
+                                <exclude reference="aA6-52-dSG"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FrG-6u-eRo" appends="YES" id="WK7-dz-Zz3"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="carryOne" destination="jl1-If-ag6" id="krX-yh-SCg"/>
+                        <outlet property="carryThree" destination="k7D-Fx-312" id="e1A-to-ybb"/>
+                        <outlet property="carryTwo" destination="6Hp-ia-WQQ" id="Wxh-aR-eTn"/>
+                        <outlet property="checkAnswerLbl" destination="mrs-Od-cjL" id="qW2-Md-m5C"/>
+                        <outlet property="numAnswer1" destination="Y7O-Nm-Bil" id="wFh-Up-CoE"/>
+                        <outlet property="numAnswer2" destination="hsB-Xh-84d" id="xbm-9E-rVd"/>
+                        <outlet property="numAnswer3" destination="4M9-IW-cNp" id="yfq-qi-2CF"/>
+                        <outlet property="numAnswer4" destination="Nxr-Ou-Cm2" id="Khv-bK-zev"/>
+                        <outlet property="numAnswer5" destination="oxT-FZ-0LO" id="9P4-ad-lDJ"/>
+                        <outlet property="numAnswer6" destination="hFM-Ff-dFG" id="5zl-l3-5at"/>
+                        <outlet property="numLevelOne1" destination="IsP-rQ-N8T" id="w0v-V6-afm"/>
+                        <outlet property="numLevelOne2" destination="ExM-PR-NF5" id="rGb-AA-ljj"/>
+                        <outlet property="numLevelOne3" destination="CIV-Xo-duH" id="bJn-GY-YaX"/>
+                        <outlet property="numLevelOne4" destination="LyW-6I-8Zz" id="8k8-7g-Icc"/>
+                        <outlet property="numLevelOne5" destination="XgP-6C-3lJ" id="chG-UO-4EA"/>
+                        <outlet property="numLevelTwo1" destination="r0k-Im-rkU" id="Ao1-lR-dyo"/>
+                        <outlet property="numLevelTwo2" destination="hsx-70-fyk" id="Fmo-GI-XNm"/>
+                        <outlet property="numLevelTwo3" destination="2s4-Ze-Fqa" id="RQV-Hd-afx"/>
+                        <outlet property="numLevelTwo4" destination="2V9-iP-1dS" id="UtR-VC-XXr"/>
+                        <outlet property="numLevelTwo5" destination="RTg-fH-DZl" id="DFC-H4-pnz"/>
+                        <outlet property="numLevelTwoZero" destination="qIC-3s-I8E" id="EMv-sw-12U"/>
+                        <outlet property="numOne1" destination="iqn-XK-QYg" id="pyh-Vr-YC5"/>
+                        <outlet property="numOne2" destination="j0T-Of-RD2" id="Vsd-Ua-6Y0"/>
+                        <outlet property="numOne3" destination="VGI-hk-gqs" id="1wm-4B-A2i"/>
+                        <outlet property="numOne4" destination="QSQ-84-d5p" id="hka-LT-yRB"/>
+                        <outlet property="numTwo1" destination="wjO-ZK-eSV" id="G2s-Hw-2qh"/>
+                        <outlet property="numTwo2" destination="pjy-tH-WI6" id="gdd-jM-gvd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="FrG-6u-eRo">
+                    <connections>
+                        <action selector="backgroundTapped:" destination="BYZ-38-t0r" id="flj-TV-25c"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="319" y="534"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btnCheck" width="68" height="68"/>
+        <image name="btnClear" width="68" height="68"/>
+    </resources>
 </document>
